@@ -19,7 +19,7 @@ int main(){
         if (c == ' '){                  //Verifica se il valore inserito da input è uno spazio in caso positivo esegue i comandi tra {}
             putchar(' ');               //Stampa uno spazio
             while (((c = getchar()) == ' ') && (c != EOF)){}    //Legge il successivo carattere inserito da input e fitanto che equivale a uno spazio non effettua alcuna operazione
-            }
+        }
         putchar(c);                     //Stampa il carattere in c (ovvero il carattere letto da input)
     }
     return 0;
