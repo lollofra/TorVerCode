@@ -1,5 +1,5 @@
 //No_more_space.c: Cancella gli spazi di troppo in un testo
-/*   * Copyright © 2017-2018 Lorenzo Fiocco <fiocco@giallo.it>
+/*   * Copyright © 2020 Lorenzo Fiocco <fiocco@giallo.it>
      * This program is free software. It comes without any warranty, to
      * the extent permitted by applicable law. You can redistribute it
      * and/or modify it under the terms of the Do What The Fuck You Want
