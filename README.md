@@ -10,4 +10,7 @@ Sperando possano essere utili a qualcuno li pubblico sotto [WTFPL](LICENCE) (_Do
 [Echo.c](Echo.c) è un programmino che serve per introdurre l'inserimento di valori da input, utilizza la funzione `getchar` per prendere caratteri in input e la funzione `putchar` per restituire caratteri in console, lo scopo di questo programma è quello di fungere da "echo" ovvero ripetere quello che viene inserito da input nell'output.
 
 ### 1.3 No more space: elimina gli spazi di troppo
-[No_more_space.c](No_more_space.c) è un programmino che utilizzando gli stessi comandi introdotti con [Echo.c](Echo.c) permette di eliminare, da un testo inserito da input, gli spazi multipli e sostituirli con uno spazio singolo.
+[No_more_space.c](No_more_space.c) è un programmino che utilizzando gli stessi comandi introdotti con [Echo.c](Echo.c) permette di eliminare, da un testo inserito da input, gli spazi multipli e sostituirli con uno spazio singolo. Questo programma inoltre usa una formula abbreviata per la lettura dell'input, ovvero utilizza `getchar` direttamente all'interno del while.
+
+### 1.4 New line word: visualizza una parola per riga
+[Newline_word.c](Newline_word.c) è una piccola modifica di [No_more_space.c](No_more_space.c) che sostituisce gli spazi (e anche le tabulazioni) con un "a capo" (anche detto newline).
