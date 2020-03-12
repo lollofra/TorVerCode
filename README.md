@@ -14,3 +14,6 @@ Sperando possano essere utili a qualcuno li pubblico sotto [WTFPL](LICENCE) (_Do
 
 ### 1.4 New line word: visualizza una parola per riga
 [Newline_word.c](Newline_word.c) è una piccola modifica di [No_more_space.c](No_more_space.c) che sostituisce gli spazi (e anche le tabulazioni) con un "a capo" (anche detto newline).
+
+### 1.5 Istogramma semplice: visualizza graficamente la lunghezza delle parole
+[Simple_histogram.c](Simple_histogram.c) è una piccola modifica dei programmi scritti precedentemente, possiamo dire tranquillamente che si tratta del programma new line che sostituisci alla parola il carattere '#'.
