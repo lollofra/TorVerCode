@@ -18,7 +18,9 @@ int main(){
     while ((c = getchar()) != EOF){     //Prima legge il valore da input e poi esegue i comandi tra {} fintanto che c non è uguale a EOF
         if ((c == ' ') || (c == '\t') || (c == '\n')){  //Verifica se il valore inserito da input è uno spazio (o una tabulazione o un a capo) in caso positivo esegue i comandi tra {}
             putchar('\n');              //Va a capo
-        } else putchar('#');            //Stampa il carattere #
+	    while (((c = getchar()) == ' ') || (c == '\t') && (c != EOF)){}  //Legge il successivo carattere inserito da input e fitanto che equivale a uno spazio (o una tabulazione) non effettua alcuna operazione
+        }
+	putchar('#');            	//Stampa il carattere #
     }
     return 0;
 }
